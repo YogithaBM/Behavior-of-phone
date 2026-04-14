@@ -21,4 +21,9 @@ public class ATMSystem extends Device implements Login, Logout, Report {
     public void generateReport() {
         System.out.println(" report is generated");
     }
+
+    @Override
+    public void deviceInfo() {
+        System.out.println("Device info of ATMSystem");
+    }
 }

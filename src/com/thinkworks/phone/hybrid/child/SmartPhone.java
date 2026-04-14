@@ -7,6 +7,11 @@ import com.thinkworks.phone.interfaces.functional.VideosPlayer;
 
 public class SmartPhone extends Device implements Camera, VideosPlayer, Notification {
     @Override
+    public void deviceInfo() {
+        System.out.println("information of SmartPhone");
+    }
+
+    @Override
     public void lens() {
         System.out.println("camera is clicking photos");
     }

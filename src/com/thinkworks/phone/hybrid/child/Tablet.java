@@ -7,6 +7,11 @@ import com.thinkworks.phone.interfaces.Device.Speaker;
 
 public class Tablet extends Device implements FaceUnlock, Network, Speaker {
     @Override
+    public void deviceInfo() {
+        System.out.println("Information of Table ");
+    }
+
+    @Override
     public void unlockWithFace() {
          System.out.println("unlock with face");
     }

@@ -15,4 +15,9 @@ public class SelfServiceKiosk extends Device implements Billing , Order {
     public void placeOrder() {
         System.out.println("order is placed");
     }
+
+    @Override
+    public void deviceInfo() {
+        System.out.println("Information of SelfServiceKiosk ");
+    }
 }

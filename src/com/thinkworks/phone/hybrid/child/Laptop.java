@@ -21,4 +21,9 @@ public class Laptop extends Device implements Battery, Storage, Login {
     public void storeData() {
         System.out.println("storage ");
     }
+
+    @Override
+    public void deviceInfo() {
+        System.out.println("Information of Laptop");
+    }
 }
